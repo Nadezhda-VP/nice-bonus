@@ -5,8 +5,7 @@ public class Main {
         int bonus;
         if (depositAmount > 1000) {
             bonus = depositAmount / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int balance = initialAccount + depositAmount + bonus;
